@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Poppins:wght@500&family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+}
+body{
+    font-family: 'Kablammo', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 90vw;
+    margin-inline: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    }
+.nav1{
+    background-color: #bde0fe;
+    height: 60px;
+    
+}
+a{
+    text-decoration: none;
+    color: #023047;
+}
+
+.social{
+    margin-inline: auto;
+    gap: 10px;
+}
+.contacts{
+    margin-inline: auto;
+    gap: 8px;
+}
+.button1{
+    margin-left: 60px;
+    margin-right: 20px;
+    border: 2px solid #023047;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition:  0.1s ease-out;
+}
+.button1:hover{
+    background-color: #a2d2ff;
+
+}
+.img-1{
+    width: 30px;
+}
+.img-contact{
+    width: 20px;
+    margin-top: 5px;
+}
+.img-logo{
+    width: 30px;
+    margin-left: 20px;
+    border-radius: 4px;
+    margin-right: 1px;
+}
+.nav2{
+    margin-top: 6px;
+    justify-content: space-between;
+
+
+}
+.logo{
+    gap: 2px;
+}
+.button2 img{
+     width: 40px;
+     height: 60px;
+}
+.main-links{
+    
+    gap: 25px;
+    
+    
+}
+.div-main{
+    gap: 15px;
+}
+.main-link:hover{
+    color: #023047;
+}
+.button2{
+   justify-content: end;
+   
+   transition:  0.1s ease-out;
+}
+.button2:hover{
+    background-color: #bde0fe;
+    color: #023047 !important; 
+}
+
+.hero{
+    margin-top: 3px;
+   background-image: url(https://images.unsplash.com/photo-1495195129352-aeb325a55b65?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1776&q=80);
+   
+    background-color:#b5b8b9;
+    background-blend-mode:overlay;
+    display: flex;
+    justify-content: center;
+    height: 65vh;
+    
+}
+.button3{
+    background-color: #bde0fe;
+    padding: 4px;
+    border-radius: 4px;
+    border: 1px solid #023047;
+    transition:  0.1s ease-out;
+    
+}
+.button3:hover{
+    background-color: #a2d2ff;
+}
+.headings{
+    margin-top: 80px;
+    text-align: center;
+    font-size:1.8rem;
+    color:#023047 ;
+
+    
+}
+.headings h1{
+    margin-bottom: 10px;
+}
+.headings h2{
+    margin-bottom: 12px;
+}
+.headings p{
+    margin-bottom: 40px;
+}
+.btn4{
+    background-color: #bde0fe;
+    padding: 10px 18px;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: 1px solid #023047 ;
+    transition:  0.1s ease-out;
+   
+}
+.btn4:hover{
+    background-color: #a2d2ff;
+}
+.features{
+    background-color: #bde0fe;
+    justify-content: space-evenly;
+    color: #023047;
+    height: 25vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.f-box{
+    gap: 15px;
+}
+.feature{
+    height:60px;
+    margin-top: 20px;
+}
+.hero1{
+    background-image: url(https://media.istockphoto.com/id/1186758589/photo/transparent-earth-with-landmass-made-from-black-dots-oceans-transparent-this-view-showing-asia.jpg?s=1024x1024&w=is&k=20&c=C6BdPr229YlbLUnANO3HLh_Fp8KtohlBnis6JWKRAFk=);
+    height: 55vh;
+    justify-content: space-between;
+    align-items:center ;
+    margin-top: 2px;
+    background-color: #bde0fe;
+    background-blend-mode:overlay;
+    
+    color: #023047;
+}
+.right-hero1 {
+ margin-bottom: 0%;
+ 
+}
+.left-hero1{
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+.left-hero1 p{
+    margin-bottom: 30px;
+}
+.left-hero1 h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn5{
+    padding: 8px 25px;
+    background-color: #bde0fe;
+    border-radius: 16%;
+    font-size: 1.2rem;
+    border: 1px solid #023047;
+
+}
+.btn5:hover{
+    background-color: #a2d2ff;
+}
+.card1{
+    background-image: url(https://images.unsplash.com/photo-1627891439350-cb0859d367bf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+    height: 25vh;
+    width: 25%;
+    border-radius: 20px;
+    background-color: #bababa;
+    background-blend-mode: overlay;
+   
+    text-align: center;
+    color: #023047;
+    
+}
+.card1 h2{
+    margin-top: 25px;
+    margin-bottom: 5%;
+}
+.card1 p{
+    margin-bottom: 10%;
+
+}
+.card2{
+    background-image: url(https://images.unsplash.com/photo-1630386554814-8ffe504a8df0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+    height: 25vh;
+    width: 25%;
+    border-radius: 20px;
+    background-color: #bababa;
+    background-blend-mode: overlay;
+   
+    text-align: center;
+    color: #023047;
+    
+}
+.card2 h2{
+    margin-top: 25px;
+    margin-bottom: 5%;
+}
+.card2 p{
+    margin-bottom: 10%;
+
+}
+
+.our-services h1{
+    margin-top: 2px;
+    background-color: #bde0fe;
+    color: #023047;
+    
+}
+.footer{
+    display: none;
+}
+@media screen and (max-width:810px) {
+    .hero1{
+        display: block;
+        height: 65vh;
+    }
+    .features{
+        height: 25vh;
+     }
+     .man{
+        width: 75vw;
+     }
+     .main-links{
+        display: none;
+     }
+     .footer{
+        display: none;
+    }
+     
+    
+}
+@media screen and (max-width:460px) {
+    .our-services{
+        display: flex;
+        flex-wrap: wrap;
+        gap:50px ;
+        
+    }
+    .card1{
+        width: 60vw;
+        height: 16vh;
+        margin-inline: auto;
+        
+        
+        
+    }
+    
+    
+    
+    .card2{
+        width: 60vw;
+        height: 16vh;
+        margin-inline: auto;
+       
+    }
+    .nav1{
+        display: none;
+    }
+    .features{
+        height: 38vh;
+    }
+    .hero1{
+        height: 90vh;
+    }
+    
+}
+  
+
